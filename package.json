@@ -1,0 +1,17 @@
+{
+  "name": "outscraper-vercel",
+  "version": "1.0.0",
+  "description": "Outscraper MCP Server for Vercel",
+  "private": true,
+  "scripts": {
+    "start": "node api/mcp.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.9.0",
+    "zod": "^3.24.3"
+  },
+  "devDependencies": {
+    "@types/node": "^18.19.86",
+    "typescript": "^5.0.0"
+  }
+}
